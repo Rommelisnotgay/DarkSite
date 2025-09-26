@@ -100,7 +100,7 @@ html {
 }
 .header .links:hover .icon span:nth-child(2) {
     width: 100%;
-    
+     
 }
 .header .links .icon {
     width: 30px;
@@ -235,6 +235,11 @@ html {
     color: #777;
     font-size: 17px;
 }
+@media (max-width: 325px) {
+    .eat {
+        margin-right: 20px;
+    }
+}
 /* end features */
 /* start services */
 .ser .cont .special {
@@ -339,6 +344,11 @@ html {
 .port .cont .special {
     margin-bottom: 40px;
 }
+@media (max-width: 350px) {
+    .special {
+        font-size: 35px;
+    }
+}
 .port .portcont {
     display: grid;
     grid-template-columns: repeat(auto-fill , minmax(300px , 1fr));
@@ -365,6 +375,24 @@ html {
     height: 300px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+@media (max-width: 360px) {
+    .special {
+        font-size: 35px;
+    }
+    .card {
+        width:90%;
+       margin-left: 16.5px;
+    }
+}
+@media (max-width: 325px) {
+    .special {
+        font-size: 35px;
+    }
+    .card {
+        width:80%;
+       margin-left: 16.5px;
+    }
 }
 .port .portcont .card .info  {
     padding: 20px;
@@ -549,7 +577,7 @@ html {
 @media(max-width: 767px){
     .contact .info .link ,
     .contact .info .label  {
-        font-size: 25px;
+        font-size: 15px;
 
     }
 }
